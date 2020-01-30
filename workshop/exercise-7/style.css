@@ -1,12 +1,56 @@
 /* minor CSS reset */
 /* You should not need to change anything here */
-html, body, div, h1, h2, p, ul, li {
-	margin: 0;
-	padding: 0;
-	border: 0;
-	font-size: 100%;
-	font: inherit;
-	vertical-align: baseline;
+html,
+body,
+div,
+h1,
+h2,
+p,
+ul,
+li {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
 }
 
 /* ADD CSS BELOW */
+
+body {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  text-transform: uppercase;
+}
+
+.mainContent {
+  margin: 0 auto;
+  padding: 20px;
+}
+
+h1 {
+  font-size: 5em;
+  text-align: center;
+  padding-top: 20px;
+}
+
+h2 {
+  font-size: 2em;
+  margin: 20px 0;
+}
+
+h3 {
+  text-align: center;
+}
+
+.cute-animals {
+  display: flex;
+  justify-content: flex-start;
+}
+
+.gallery {
+  border: 1px dashed black;
+  background: lightgrey;
+  padding: 20px;
+  margin-right: 20px;
+}

@@ -1,1 +1,13 @@
 /* ...crickets... */
+
+.title {
+    text-align: center;
+}
+
+.subtitle{
+    text-align: center;
+}
+
+.content{
+    font-family: 'Courier New', Courier, monospace ;
+}

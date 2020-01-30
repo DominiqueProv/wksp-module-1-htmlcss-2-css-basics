@@ -32,7 +32,9 @@ Write the CSS to make the cat text blue.
 
 ```css
 /* css here */
-
+p .feline{
+    color: blue;
+}
 ```
 
 ---
@@ -49,7 +51,9 @@ Write the CSS to make the cat text blue.
 
 ```css
 /* css here */
-
+h2 .animal {
+    color: blue;
+}
 ```
 
 ---
@@ -59,12 +63,16 @@ Write the CSS to make the cat text blue.
 Write the CSS to make the cat text blue.
 
 ```html
-<p id="royalcat" class="good-boy">Husky</p>
+<p id="royalcat" 
+   class="good-boy">Husky</p>
 <p class="royalcat">Felix the cat</p>
 ```
 
 ```css
 /* css here */
+.royalcat{
+    color: blue;
+}
 
 ```
 
@@ -82,7 +90,9 @@ Write the CSS to make the dogs text red.
 
 ```css
 /* css here */
-
+ .canine{
+     color:red;
+ }
 ```
 
 ---
@@ -99,6 +109,9 @@ Write the CSS to make the dogs text red.
 
 ```css
 /* css here */
+h1 .animal{
+    color: red;
+}
 
 ```
 
@@ -106,7 +119,7 @@ Write the CSS to make the dogs text red.
 
 ### Exercise 6 [🐇](https://codepen.io)
 
-What color is the `p` element?
+What color is the `p` element? Blue
 
 `<p class="blue"> hello </p>`
 
@@ -159,7 +172,9 @@ Every HTML element is a box that has 4 properties.
 
 ### Example
 
-What is the width and height of this box?
+What is the width and height of this box? 
+Width / Height = 10+10+100+25+25 = 170px
+
 
 `<p class='greeting'>Hello</p>`
 
@@ -184,6 +199,8 @@ We can fix this with the `box-sizing` CSS property.
 ```
 
 _What is the meaning of `*`?_
+
+all element selectors in the whole world (in your file)
 
 ---
 
